@@ -1,5 +1,5 @@
 #include <EEPROM.h>
-//This is a copy, here is a change
+//I took away the previous Comment
 int buttonPin[4] = {14, 16, 17, 18,};
 int ledPin[4] = {3, 5, 7, 9};
 boolean lastButtonState[4] = {LOW, LOW, LOW, LOW};
